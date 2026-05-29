@@ -5,22 +5,18 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.214
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
@@ -29,8 +25,8 @@ proxies:
     network: tcp
   - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
-    server: dotu-sgv1.kunlun03dns.com
-    port: 11137
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11122
     uuid: 6b989fce-172e-37a6-b324-3922008b17f9
     alterId: 0
     cipher: auto
@@ -39,7 +35,7 @@ proxies:
   - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
     server: dotu-hkv1.kunlun03dns.com
-    port: 11103
+    port: 11102
     uuid: 6b989fce-172e-37a6-b324-3922008b17f9
     alterId: 0
     cipher: auto
@@ -47,17 +43,8 @@ proxies:
     network: tcp
   - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: dotu-krv1.kunlun03dns.com
-    port: 11144
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11119
     uuid: 6b989fce-172e-37a6-b324-3922008b17f9
     alterId: 0
     cipher: auto
@@ -89,6 +76,76 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇰🇷KR_1|1.4MB/s - undefinedms
+    type: vmess
+    server: yd4.ainivp.com
+    port: 33204
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: yd4.ainivp.com
+  - name: 🇰🇷KR_2|1.1MB/s - undefinedms
+    type: vmess
+    server: yd4.ainivp.com
+    port: 33204
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: yd4.ainivp.com
+  - name: 🇨🇾CY_1|2.5MB/s - undefinedms
+    type: vmess
+    server: 45.128.72.44
+    port: 80
+    uuid: a2170d39-140a-47f9-85b8-084078856c36
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /api/v1
+      headers:
+        Host: 45.128.72.44
+  - name: 🇭🇰HK_1|1.7MB/s - undefinedms
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
+  - name: 🇸🇬SG_3|1.6MB/s - undefinedms
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: dotu-usv1.kunlun03dns.com
@@ -1610,32 +1667,6 @@ proxies:
       path: /
       headers:
         Host: server26.beheshtbaneh.com
-  - name: 🇭🇰HK_1|1.9MB/s - undefinedms
-    type: vmess
-    server: cu7.ainivp.com
-    port: 33414
-    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: cu7.ainivp.com
-  - name: 🇭🇰HK_2|1.3MB/s - undefinedms
-    type: vmess
-    server: yd3.ainivp.com
-    port: 33407
-    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: yd3.ainivp.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -2108,14 +2139,19 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇰🇷KR_1|1.4MB/s - undefinedms
+      - 🇰🇷KR_2|1.1MB/s - undefinedms
+      - 🇨🇾CY_1|2.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.7MB/s - undefinedms
+      - 🇸🇬SG_3|1.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：05-28 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -2261,8 +2297,6 @@ proxy-groups:
       - 430 - undefinedms
       - 🇨🇳 中国 431 - undefinedms
       - 434 - undefinedms
-      - 🇭🇰HK_1|1.9MB/s - undefinedms
-      - 🇭🇰HK_2|1.3MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2305,14 +2339,19 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇰🇷KR_1|1.4MB/s - undefinedms
+      - 🇰🇷KR_2|1.1MB/s - undefinedms
+      - 🇨🇾CY_1|2.5MB/s - undefinedms
+      - 🇭🇰HK_1|1.7MB/s - undefinedms
+      - 🇸🇬SG_3|1.6MB/s - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 日期：05-28 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
@@ -2458,8 +2497,6 @@ proxy-groups:
       - 430 - undefinedms
       - 🇨🇳 中国 431 - undefinedms
       - 434 - undefinedms
-      - 🇭🇰HK_1|1.9MB/s - undefinedms
-      - 🇭🇰HK_2|1.3MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
