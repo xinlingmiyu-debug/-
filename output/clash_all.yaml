@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,7 +31,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 未知 VMESS-210 | free-nodes - undefinedms
+  - name: 未知 VMESS-226 | free-nodes - undefinedms
     type: vmess
     server: 45.63.75.211
     port: 44855
@@ -57,7 +44,7 @@ proxies:
       path: /5164f226
       headers:
         Host: 45.63.75.211
-  - name: 未知 VMESS-211 | free-nodes - undefinedms
+  - name: 未知 VMESS-227 | free-nodes - undefinedms
     type: vmess
     server: 51.254.133.152
     port: 80
@@ -70,7 +57,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-212 | free-nodes - undefinedms
+  - name: 未知 VMESS-228 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -83,7 +70,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-213 | free-nodes - undefinedms
+  - name: 未知 VMESS-229 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -96,7 +83,20 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-214 | free-nodes - undefinedms
+  - name: 未知 VMESS-230 | free-nodes - undefinedms
+    type: vmess
+    server: 8.211.149.30
+    port: 443
+    uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws/
+      headers:
+        Host: polartime.link
+  - name: 未知 VMESS-231 | free-nodes - undefinedms
     type: vmess
     server: 89.167.82.102
     port: 4443
@@ -105,7 +105,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-215 | free-nodes - undefinedms
+  - name: 未知 VMESS-232 | free-nodes - undefinedms
     type: vmess
     server: 96.47.230.5
     port: 54840
@@ -118,7 +118,7 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-216 | free-nodes - undefinedms
+  - name: 未知 VMESS-233 | free-nodes - undefinedms
     type: vmess
     server: 96.47.230.5
     port: 54840
@@ -131,7 +131,20 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-217 | free-nodes - undefinedms
+  - name: 未知 VMESS-234 | free-nodes - undefinedms
+    type: vmess
+    server: 96.47.230.5
+    port: 54840
+    uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: imafake.locker
+  - name: 未知 VMESS-235 | free-nodes - undefinedms
     type: vmess
     server: myvpshosting.name.ng
     port: 80
@@ -144,11 +157,42 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-218 | free-nodes - undefinedms
+  - name: 未知 VMESS-236 | free-nodes - undefinedms
     type: vmess
     server: nlt.reata.ir
     port: 1020
     uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇸🇬SG_3|2.7MB/s - undefinedms
+    type: vmess
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_4|2.2MB/s - undefinedms
+    type: vmess
+    server: 23.141.204.132
+    port: 29633
+    uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
     alterId: 0
     cipher: auto
     tls: false
@@ -679,18 +723,22 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-226 | free-nodes - undefinedms
+      - 未知 VMESS-227 | free-nodes - undefinedms
+      - 未知 VMESS-228 | free-nodes - undefinedms
+      - 未知 VMESS-229 | free-nodes - undefinedms
+      - 未知 VMESS-230 | free-nodes - undefinedms
+      - 未知 VMESS-231 | free-nodes - undefinedms
+      - 未知 VMESS-232 | free-nodes - undefinedms
+      - 未知 VMESS-233 | free-nodes - undefinedms
+      - 未知 VMESS-234 | free-nodes - undefinedms
+      - 未知 VMESS-235 | free-nodes - undefinedms
+      - 未知 VMESS-236 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 未知 VMESS-210 | free-nodes - undefinedms
-      - 未知 VMESS-211 | free-nodes - undefinedms
-      - 未知 VMESS-212 | free-nodes - undefinedms
-      - 未知 VMESS-213 | free-nodes - undefinedms
-      - 未知 VMESS-214 | free-nodes - undefinedms
-      - 未知 VMESS-215 | free-nodes - undefinedms
-      - 未知 VMESS-216 | free-nodes - undefinedms
-      - 未知 VMESS-217 | free-nodes - undefinedms
-      - 未知 VMESS-218 | free-nodes - undefinedms
+      - 🇸🇬SG_3|2.7MB/s - undefinedms
+      - 🇺🇸US_4|2.2MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -739,18 +787,22 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 未知 VMESS-226 | free-nodes - undefinedms
+      - 未知 VMESS-227 | free-nodes - undefinedms
+      - 未知 VMESS-228 | free-nodes - undefinedms
+      - 未知 VMESS-229 | free-nodes - undefinedms
+      - 未知 VMESS-230 | free-nodes - undefinedms
+      - 未知 VMESS-231 | free-nodes - undefinedms
+      - 未知 VMESS-232 | free-nodes - undefinedms
+      - 未知 VMESS-233 | free-nodes - undefinedms
+      - 未知 VMESS-234 | free-nodes - undefinedms
+      - 未知 VMESS-235 | free-nodes - undefinedms
+      - 未知 VMESS-236 | free-nodes - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - 未知 VMESS-210 | free-nodes - undefinedms
-      - 未知 VMESS-211 | free-nodes - undefinedms
-      - 未知 VMESS-212 | free-nodes - undefinedms
-      - 未知 VMESS-213 | free-nodes - undefinedms
-      - 未知 VMESS-214 | free-nodes - undefinedms
-      - 未知 VMESS-215 | free-nodes - undefinedms
-      - 未知 VMESS-216 | free-nodes - undefinedms
-      - 未知 VMESS-217 | free-nodes - undefinedms
-      - 未知 VMESS-218 | free-nodes - undefinedms
+      - 🇸🇬SG_3|2.7MB/s - undefinedms
+      - 🇺🇸US_4|2.2MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
