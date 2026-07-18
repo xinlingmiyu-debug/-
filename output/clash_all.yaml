@@ -44,24 +44,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇺🇸US_2|2.6MB/s - undefinedms
-    type: vmess
-    server: v8.hdacd.com
-    port: 30808
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸US_6|1.7MB/s - undefinedms
-    type: vmess
-    server: c722s801.portablesubmarines.com
-    port: 16025
-    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇭🇰_香港_142 - undefinedms
     type: vmess
     server: 47.83.221.185
@@ -458,6 +440,15 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
+  - name: 🇺🇸US_7|3.3MB/s - undefinedms
+    type: vmess
+    server: c722s801.portablesubmarines.com
+    port: 16025
+    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -662,8 +653,6 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -696,6 +685,7 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -722,8 +712,6 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -756,6 +744,7 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
