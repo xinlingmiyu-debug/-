@@ -44,19 +44,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_法国_106 - undefinedms
+  - name: 免费VPN：https://tt.vg/FJOE2Mm - undefinedms
     type: vmess
-    server: 2001:bc8:32d7:225::3
-    port: 55009
-    uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+    server: cvm1.w-mebel.pro
+    port: 443
+    uuid: c1d62d53-2fcd-4951-ab96-c81486f59775
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     network: ws
     ws-opts:
-      path: /0zNW56sF
+      path: /video/v5/chunks
       headers:
-        Host: 2001:bc8:32d7:225::3
+        Host: cvm1.w-mebel.pro
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -586,7 +586,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_法国_106 - undefinedms
+      - 免费VPN：https://tt.vg/FJOE2Mm - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -638,7 +638,7 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_法国_106 - undefinedms
+      - 免费VPN：https://tt.vg/FJOE2Mm - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
