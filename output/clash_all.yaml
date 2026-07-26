@@ -44,7 +44,16 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇨🇳_中国_31 - undefinedms
+  - name: 🇨🇳_中国_116 - undefinedms
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_中国_118 - undefinedms
     type: vmess
     server: v9.hdacd.com
     port: 30809
@@ -53,7 +62,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_香港_32 - undefinedms
+  - name: 🇭🇰_香港_123 - undefinedms
     type: vmess
     server: 47.76.127.88
     port: 5566
@@ -62,16 +71,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇨🇳_中国_40 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_中国_41 - undefinedms
+  - name: 🇨🇳_中国_124 - undefinedms
     type: vmess
     server: v4.hdacd.com
     port: 30804
@@ -80,7 +80,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇫🇷_法国_97 - undefinedms
+  - name: 🇭🇰_香港_127 - undefinedms
+    type: vmess
+    server: v10.zgtfqs.click
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇫🇷_法国_195 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:225::3
     port: 55009
@@ -93,11 +102,375 @@ proxies:
       path: /0zNW56sF
       headers:
         Host: 2001:bc8:32d7:225::3
-  - name: 🇭🇰_香港_190 - undefinedms
+  - name: 🇭🇰_香港_228 - undefinedms
     type: vmess
-    server: n1747624260.4u9ma.icu
+    server: m01c7b2z26dtqgee.v.3dns.vip
     port: 443
-    uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: M01c7B2z26DtQGEe.v.3dns.vip
+  - name: 🇭🇰_香港_229 - undefinedms
+    type: vmess
+    server: wwafj5lhl6bi8au9.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: wwafj5LHl6bI8aU9.v.3dns.vip
+  - name: 🇭🇰_香港_489 - undefinedms
+    type: vmess
+    server: 93ucrn4i0pffuabk.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 93ucrn4i0PffUAbk.v.3dns.vip
+  - name: 🇭🇰_香港_493 - undefinedms
+    type: vmess
+    server: nycqg19zkwacpm1b.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: NYcQg19zkwaCPM1B.v.3dns.vip
+  - name: 🇭🇰_香港_494 - undefinedms
+    type: vmess
+    server: vah4urdzl3jdx5r2.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: VAH4URdZL3jDX5r2.v.3dns.vip
+  - name: 🇭🇰_香港_495 - undefinedms
+    type: vmess
+    server: zudssgtmrqg9lpvi.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: zUDssgTMRqg9LpvI.v.3dns.vip
+  - name: 🇭🇰_香港_496 - undefinedms
+    type: vmess
+    server: 6jdvarazgu3qqr6q.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+  - name: 🇭🇰_香港_497 - undefinedms
+    type: vmess
+    server: 7timuei1uufoixbf.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 7tImuei1uuFOiXbf.v.3dns.vip
+  - name: 🇭🇰_香港_498 - undefinedms
+    type: vmess
+    server: ce0gedpxwou6cqon.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: cE0gedPXwOU6cqoN.v.3dns.vip
+  - name: 🇭🇰_香港_499 - undefinedms
+    type: vmess
+    server: u2frxj0g13vdi0wo.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+  - name: 🇭🇰_香港_500 - undefinedms
+    type: vmess
+    server: mh7r5ardl0z5jtgy.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: mh7R5ArdL0z5jTGY.v.3dns.vip
+  - name: 🇭🇰_香港_501 - undefinedms
+    type: vmess
+    server: 2b9hwy8ocx7q74nm.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
+  - name: 🇭🇰_香港_502 - undefinedms
+    type: vmess
+    server: qtkdr8jxe3wefxjm.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+  - name: 🇭🇰_香港_503 - undefinedms
+    type: vmess
+    server: lcv8v9l7oyamxxfz.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+  - name: 🇭🇰_香港_504 - undefinedms
+    type: vmess
+    server: ex1ogt73nzpqkac2.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: EX1oGt73NzPQKAc2.v.3dns.vip
+  - name: 🇭🇰_香港_505 - undefinedms
+    type: vmess
+    server: i2psm3knof5qjjix.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: I2PSm3Knof5qjjix.v.3dns.vip
+  - name: 🇭🇰_香港_506 - undefinedms
+    type: vmess
+    server: drbkg16egf3fzlm3.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: DrBKg16eGf3FZlM3.v.3dns.vip
+  - name: 🇭🇰_香港_507 - undefinedms
+    type: vmess
+    server: mtckundigepwu3up.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: mTCKUNDiGePwU3uP.v.3dns.vip
+  - name: 🇭🇰_香港_509 - undefinedms
+    type: vmess
+    server: ejomsxptp19apygl.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: ejOMsxPtP19APyGL.v.3dns.vip
+  - name: 🇹🇼_台湾_510 - undefinedms
+    type: vmess
+    server: twdx6.baidupi.top
+    port: 2096
+    uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /assets/images/
+      headers:
+        Host: cos.ap-shanghai.myqcloud.com
+  - name: 🇺🇸_美国_525 - undefinedms
+    type: vmess
+    server: 154.17.234.39
+    port: 2086
+    uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_526 - undefinedms
+    type: vmess
+    server: 154.21.83.77
+    port: 8880
+    uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_527 - undefinedms
+    type: vmess
+    server: 154.26.183.5
+    port: 8880
+    uuid: f4a047d5-f419-4e3f-9054-bd2a087e1dc2
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: f4a047d5-f419-4e3f-9054-bd2a087e1dc2-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_528 - undefinedms
+    type: vmess
+    server: 173.249.200.68
+    port: 8080
+    uuid: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_529 - undefinedms
+    type: vmess
+    server: 64.186.253.113
+    port: 2095
+    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_530 - undefinedms
+    type: vmess
+    server: 69.63.204.31
+    port: 2082
+    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇭🇰_香港_531 - undefinedms
+    type: vmess
+    server: 85.113.71.85
+    port: 2086
+    uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: ba58ca0c-0411-444e-80f7-e361ce49012d-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇺🇸_美国_532 - undefinedms
+    type: vmess
+    server: 154.17.238.183
+    port: 8880
+    uuid: b7479b73-8cea-4a82-97e8-bacf9bd86605
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
+      headers:
+        Host: www.bing.com
+  - name: 🇭🇰_香港_539 - undefinedms
+    type: vmess
+    server: n1747624274.4u9ma.icu
+    port: 443
+    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
     alterId: 0
     cipher: auto
     tls: true
@@ -105,7 +478,7 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: n1747624260.4u9ma.icu
+        Host: n1747624274.4u9ma.icu
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -672,60 +1045,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -733,12 +1052,41 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇨🇳_中国_31 - undefinedms
-      - 🇭🇰_香港_32 - undefinedms
-      - 🇨🇳_中国_40 - undefinedms
-      - 🇨🇳_中国_41 - undefinedms
-      - 🇫🇷_法国_97 - undefinedms
-      - 🇭🇰_香港_190 - undefinedms
+      - 🇨🇳_中国_116 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇭🇰_香港_123 - undefinedms
+      - 🇨🇳_中国_124 - undefinedms
+      - 🇭🇰_香港_127 - undefinedms
+      - 🇫🇷_法国_195 - undefinedms
+      - 🇭🇰_香港_228 - undefinedms
+      - 🇭🇰_香港_229 - undefinedms
+      - 🇭🇰_香港_489 - undefinedms
+      - 🇭🇰_香港_493 - undefinedms
+      - 🇭🇰_香港_494 - undefinedms
+      - 🇭🇰_香港_495 - undefinedms
+      - 🇭🇰_香港_496 - undefinedms
+      - 🇭🇰_香港_497 - undefinedms
+      - 🇭🇰_香港_498 - undefinedms
+      - 🇭🇰_香港_499 - undefinedms
+      - 🇭🇰_香港_500 - undefinedms
+      - 🇭🇰_香港_501 - undefinedms
+      - 🇭🇰_香港_502 - undefinedms
+      - 🇭🇰_香港_503 - undefinedms
+      - 🇭🇰_香港_504 - undefinedms
+      - 🇭🇰_香港_505 - undefinedms
+      - 🇭🇰_香港_506 - undefinedms
+      - 🇭🇰_香港_507 - undefinedms
+      - 🇭🇰_香港_509 - undefinedms
+      - 🇹🇼_台湾_510 - undefinedms
+      - 🇺🇸_美国_525 - undefinedms
+      - 🇺🇸_美国_526 - undefinedms
+      - 🇺🇸_美国_527 - undefinedms
+      - 🇺🇸_美国_528 - undefinedms
+      - 🇺🇸_美国_529 - undefinedms
+      - 🇺🇸_美国_530 - undefinedms
+      - 🇭🇰_香港_531 - undefinedms
+      - 🇺🇸_美国_532 - undefinedms
+      - 🇭🇰_香港_539 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -785,12 +1133,6 @@ proxy-groups:
       - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -800,12 +1142,41 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇨🇳_中国_31 - undefinedms
-      - 🇭🇰_香港_32 - undefinedms
-      - 🇨🇳_中国_40 - undefinedms
-      - 🇨🇳_中国_41 - undefinedms
-      - 🇫🇷_法国_97 - undefinedms
-      - 🇭🇰_香港_190 - undefinedms
+      - 🇨🇳_中国_116 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇭🇰_香港_123 - undefinedms
+      - 🇨🇳_中国_124 - undefinedms
+      - 🇭🇰_香港_127 - undefinedms
+      - 🇫🇷_法国_195 - undefinedms
+      - 🇭🇰_香港_228 - undefinedms
+      - 🇭🇰_香港_229 - undefinedms
+      - 🇭🇰_香港_489 - undefinedms
+      - 🇭🇰_香港_493 - undefinedms
+      - 🇭🇰_香港_494 - undefinedms
+      - 🇭🇰_香港_495 - undefinedms
+      - 🇭🇰_香港_496 - undefinedms
+      - 🇭🇰_香港_497 - undefinedms
+      - 🇭🇰_香港_498 - undefinedms
+      - 🇭🇰_香港_499 - undefinedms
+      - 🇭🇰_香港_500 - undefinedms
+      - 🇭🇰_香港_501 - undefinedms
+      - 🇭🇰_香港_502 - undefinedms
+      - 🇭🇰_香港_503 - undefinedms
+      - 🇭🇰_香港_504 - undefinedms
+      - 🇭🇰_香港_505 - undefinedms
+      - 🇭🇰_香港_506 - undefinedms
+      - 🇭🇰_香港_507 - undefinedms
+      - 🇭🇰_香港_509 - undefinedms
+      - 🇹🇼_台湾_510 - undefinedms
+      - 🇺🇸_美国_525 - undefinedms
+      - 🇺🇸_美国_526 - undefinedms
+      - 🇺🇸_美国_527 - undefinedms
+      - 🇺🇸_美国_528 - undefinedms
+      - 🇺🇸_美国_529 - undefinedms
+      - 🇺🇸_美国_530 - undefinedms
+      - 🇭🇰_香港_531 - undefinedms
+      - 🇺🇸_美国_532 - undefinedms
+      - 🇭🇰_香港_539 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -852,11 +1223,5 @@ proxy-groups:
       - 🇯🇵_JP_日本->🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国->🇩🇪_DE_德国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
 rules:
   - MATCH,Proxy
