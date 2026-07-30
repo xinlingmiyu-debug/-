@@ -44,7 +44,47 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 V2CROSS.COM - undefinedms
+  - name: 🇭🇰_香港_113 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_中国_118 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国_120 - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇲🇾_马来西亚_126 - undefinedms
+    type: vmess
+    server: cindy52.ceoiii.com
+    port: 36803
+    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: ajax.microsoft.com
+  - name: 🇺🇸_美国_134 - undefinedms
     type: vmess
     server: sylva51.ceoiii.com
     port: 36822
@@ -57,51 +97,20 @@ proxies:
       path: /hls/cctv5phd.m3u8
       headers:
         Host: ajax.microsoft.com
-  - name: 🇺🇸_美国_48 - undefinedms
+  - name: 🇭🇰_香港_146 - undefinedms
     type: vmess
-    server: dsl081-033-205.lax1.dsl.speakeasy.net
-    port: 24548
-    uuid: ed81c339-eca0-463a-c671-fce729a683b3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_香港_93 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪_德国_137 - undefinedms
-    type: vmess
-    server: jeffptrade.com
+    server: 43.198.204.35
     port: 443
-    uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
+    uuid: f23bb427c1f94373876c2f43e9f790f3
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /odixvws
+      path: /ws-vmess
       headers:
-        Host: jeffptrade.com
-  - name: 🇲🇽_墨西哥_292 - undefinedms
-    type: vmess
-    server: cindy50.ceoiii.com
-    port: 36801
-    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: ajax.microsoft.com
-  - name: 🇫🇷_法国_379 - undefinedms
+        Host: cE0gedPXwOU6cqoN.v.3dns.vip
+  - name: 🇫🇷_法国_156 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:225::3
     port: 55009
@@ -114,7 +123,20 @@ proxies:
       path: /0zNW56sF
       headers:
         Host: 2001:bc8:32d7:225::3
-  - name: 🇭🇰_香港_428 - undefinedms
+  - name: 🇲🇽_墨西哥_205 - undefinedms
+    type: vmess
+    server: cindy50.ceoiii.com
+    port: 36801
+    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: ajax.microsoft.com
+  - name: 🇭🇰_香港_213 - undefinedms
     type: vmess
     server: 7timuei1uufoixbf.v.3dns.vip
     port: 443
@@ -127,7 +149,7 @@ proxies:
       path: /ws-vmess
       headers:
         Host: 7timuei1uufoixbf.v.3dns.vip
-  - name: 🇭🇰_香港_436 - undefinedms
+  - name: 🇭🇰_香港_215 - undefinedms
     type: vmess
     server: n1747624260.4u9ma.icu
     port: 443
@@ -713,14 +735,16 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
-      - 🇺🇸_美国_48 - undefinedms
-      - 🇭🇰_香港_93 - undefinedms
-      - 🇩🇪_德国_137 - undefinedms
-      - 🇲🇽_墨西哥_292 - undefinedms
-      - 🇫🇷_法国_379 - undefinedms
-      - 🇭🇰_香港_428 - undefinedms
-      - 🇭🇰_香港_436 - undefinedms
+      - 🇭🇰_香港_113 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇺🇸_美国_120 - undefinedms
+      - 🇲🇾_马来西亚_126 - undefinedms
+      - 🇺🇸_美国_134 - undefinedms
+      - 🇭🇰_香港_146 - undefinedms
+      - 🇫🇷_法国_156 - undefinedms
+      - 🇲🇽_墨西哥_205 - undefinedms
+      - 🇭🇰_香港_213 - undefinedms
+      - 🇭🇰_香港_215 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -776,14 +800,16 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
-      - 🇺🇸_美国_48 - undefinedms
-      - 🇭🇰_香港_93 - undefinedms
-      - 🇩🇪_德国_137 - undefinedms
-      - 🇲🇽_墨西哥_292 - undefinedms
-      - 🇫🇷_法国_379 - undefinedms
-      - 🇭🇰_香港_428 - undefinedms
-      - 🇭🇰_香港_436 - undefinedms
+      - 🇭🇰_香港_113 - undefinedms
+      - 🇨🇳_中国_118 - undefinedms
+      - 🇺🇸_美国_120 - undefinedms
+      - 🇲🇾_马来西亚_126 - undefinedms
+      - 🇺🇸_美国_134 - undefinedms
+      - 🇭🇰_香港_146 - undefinedms
+      - 🇫🇷_法国_156 - undefinedms
+      - 🇲🇽_墨西哥_205 - undefinedms
+      - 🇭🇰_香港_213 - undefinedms
+      - 🇭🇰_香港_215 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
