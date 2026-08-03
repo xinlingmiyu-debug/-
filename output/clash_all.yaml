@@ -44,56 +44,61 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 Microsoft数据中心 - undefinedms
+  - name: 🇭🇰_香港_144 - undefinedms
     type: vmess
-    server: cindy52.ceoiii.com
-    port: 36803
-    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: ajax.microsoft.com
-  - name: 日期：08-02 - undefinedms
-    type: vmess
-    server: 143.110.145.0
-    port: 1233
-    uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇮🇷_伊朗_87 - undefinedms
-    type: vmess
-    server: tun1.wizardx1.com
-    port: 2078
-    uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+    server: select-us.ddnskunlun.com
+    port: 9028
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇷_伊朗_91 - undefinedms
+  - name: 🇭🇰_香港_145 - undefinedms
     type: vmess
-    server: 94.182.88.61
-    port: 2078
-    uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
+    server: board-04.ddnskunlun.com
+    port: 11973
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇨🇳_中国_94 - undefinedms
+  - name: 🇭🇰_香港_146 - undefinedms
     type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: board-02.ddnskunlun.com
+    port: 11985
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_香港_102 - undefinedms
+  - name: 🇭🇰_香港_147 - undefinedms
+    type: vmess
+    server: select-us.ddnskunlun.com
+    port: 9027
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港_148 - undefinedms
+    type: vmess
+    server: board-02.ddnskunlun.com
+    port: 11885
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港_149 - undefinedms
+    type: vmess
+    server: select-hk.ddnskunlun.com
+    port: 9006
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港_154 - undefinedms
     type: vmess
     server: 47.86.167.194
     port: 800
@@ -102,7 +107,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_香港_103 - undefinedms
+  - name: 🇭🇰_香港_157 - undefinedms
     type: vmess
     server: v10.hdacd.com
     port: 30807
@@ -111,7 +116,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_美国_104 - undefinedms
+  - name: 🇺🇸_美国_158 - undefinedms
     type: vmess
     server: guanwang.awsno.com
     port: 443
@@ -120,55 +125,7 @@ proxies:
     cipher: auto
     tls: true
     network: tcp
-  - name: 🇮🇷_伊朗_105 - undefinedms
-    type: vmess
-    server: tun1.wizardx1.com
-    port: 2078
-    uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬_新加坡_108 - undefinedms
-    type: vmess
-    server: sylva51.ceoiii.com
-    port: 36822
-    uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: ajax.microsoft.com
-  - name: 🇲🇾_马来西亚_251 - undefinedms
-    type: vmess
-    server: cindy52.ceoiii.com
-    port: 36803
-    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: ajax.microsoft.com
-  - name: 🇺🇸_美国_297 - undefinedms
-    type: vmess
-    server: 35.212.182.82
-    port: 2095
-    uuid: 0e119284-a44d-45a2-807a-bdb718d82e51
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: 0e119284-a44d-45a2-807a-bdb718d82e51-vm
-      headers:
-        Host: www.bing.com
-  - name: 🇭🇰_香港_310 - undefinedms
+  - name: 🇭🇰_香港_213 - undefinedms
     type: vmess
     server: 93ucrn4i0pffuabk.v.3dns.vip
     port: 443
@@ -181,20 +138,20 @@ proxies:
       path: /ws-vmess
       headers:
         Host: 93ucrn4i0pffuabk.v.3dns.vip
-  - name: 🇭🇰_香港_311 - undefinedms
+  - name: 🇭🇰_香港_215 - undefinedms
     type: vmess
-    server: vah4urdzl3jdx5r2.v.3dns.vip
+    server: n1747624274.4u9ma.icu
     port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
+    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /ws-vmess
+      path: /
       headers:
-        Host: vah4urdzl3jdx5r2.v.3dns.vip
-  - name: 🇭🇰_香港_312 - undefinedms
+        Host: n1747624274.4u9ma.icu
+  - name: 🇭🇰_香港_216 - undefinedms
     type: vmess
     server: drbkg16egf3fzlm3.v.3dns.vip
     port: 443
@@ -207,9 +164,9 @@ proxies:
       path: /ws-vmess
       headers:
         Host: drbkg16egf3fzlm3.v.3dns.vip
-  - name: 🇭🇰_香港_313 - undefinedms
+  - name: 🇭🇰_香港_221 - undefinedms
     type: vmess
-    server: nycqg19zkwacpm1b.v.3dns.vip
+    server: m01c7b2z26dtqgee.v.3dns.vip
     port: 443
     uuid: f23bb427c1f94373876c2f43e9f790f3
     alterId: 0
@@ -219,8 +176,21 @@ proxies:
     ws-opts:
       path: /ws-vmess
       headers:
-        Host: nycqg19zkwacpm1b.v.3dns.vip
-  - name: 🇭🇰_香港_314 - undefinedms
+        Host: m01c7b2z26dtqgee.v.3dns.vip
+  - name: 🇭🇰_香港_222 - undefinedms
+    type: vmess
+    server: u2frxj0g13vdi0wo.v.3dns.vip
+    port: 443
+    uuid: f23bb427c1f94373876c2f43e9f790f3
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: u2frxj0g13vdi0wo.v.3dns.vip
+  - name: 🇭🇰_香港_225 - undefinedms
     type: vmess
     server: ejomsxptp19apygl.v.3dns.vip
     port: 443
@@ -233,19 +203,6 @@ proxies:
       path: /ws-vmess
       headers:
         Host: ejomsxptp19apygl.v.3dns.vip
-  - name: 🇭🇰_香港_316 - undefinedms
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7timuei1uufoixbf.v.3dns.vip
   - name: 🇭🇰_HK_中国香港 - undefinedms
     type: vmess
     server: 47.86.167.194
@@ -872,24 +829,21 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 Microsoft数据中心 - undefinedms
-      - 日期：08-02 - undefinedms
-      - 🇮🇷_伊朗_87 - undefinedms
-      - 🇮🇷_伊朗_91 - undefinedms
-      - 🇨🇳_中国_94 - undefinedms
-      - 🇭🇰_香港_102 - undefinedms
-      - 🇭🇰_香港_103 - undefinedms
-      - 🇺🇸_美国_104 - undefinedms
-      - 🇮🇷_伊朗_105 - undefinedms
-      - 🇸🇬_新加坡_108 - undefinedms
-      - 🇲🇾_马来西亚_251 - undefinedms
-      - 🇺🇸_美国_297 - undefinedms
-      - 🇭🇰_香港_310 - undefinedms
-      - 🇭🇰_香港_311 - undefinedms
-      - 🇭🇰_香港_312 - undefinedms
-      - 🇭🇰_香港_313 - undefinedms
-      - 🇭🇰_香港_314 - undefinedms
-      - 🇭🇰_香港_316 - undefinedms
+      - 🇭🇰_香港_144 - undefinedms
+      - 🇭🇰_香港_145 - undefinedms
+      - 🇭🇰_香港_146 - undefinedms
+      - 🇭🇰_香港_147 - undefinedms
+      - 🇭🇰_香港_148 - undefinedms
+      - 🇭🇰_香港_149 - undefinedms
+      - 🇭🇰_香港_154 - undefinedms
+      - 🇭🇰_香港_157 - undefinedms
+      - 🇺🇸_美国_158 - undefinedms
+      - 🇭🇰_香港_213 - undefinedms
+      - 🇭🇰_香港_215 - undefinedms
+      - 🇭🇰_香港_216 - undefinedms
+      - 🇭🇰_香港_221 - undefinedms
+      - 🇭🇰_香港_222 - undefinedms
+      - 🇭🇰_香港_225 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -950,24 +904,21 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 Microsoft数据中心 - undefinedms
-      - 日期：08-02 - undefinedms
-      - 🇮🇷_伊朗_87 - undefinedms
-      - 🇮🇷_伊朗_91 - undefinedms
-      - 🇨🇳_中国_94 - undefinedms
-      - 🇭🇰_香港_102 - undefinedms
-      - 🇭🇰_香港_103 - undefinedms
-      - 🇺🇸_美国_104 - undefinedms
-      - 🇮🇷_伊朗_105 - undefinedms
-      - 🇸🇬_新加坡_108 - undefinedms
-      - 🇲🇾_马来西亚_251 - undefinedms
-      - 🇺🇸_美国_297 - undefinedms
-      - 🇭🇰_香港_310 - undefinedms
-      - 🇭🇰_香港_311 - undefinedms
-      - 🇭🇰_香港_312 - undefinedms
-      - 🇭🇰_香港_313 - undefinedms
-      - 🇭🇰_香港_314 - undefinedms
-      - 🇭🇰_香港_316 - undefinedms
+      - 🇭🇰_香港_144 - undefinedms
+      - 🇭🇰_香港_145 - undefinedms
+      - 🇭🇰_香港_146 - undefinedms
+      - 🇭🇰_香港_147 - undefinedms
+      - 🇭🇰_香港_148 - undefinedms
+      - 🇭🇰_香港_149 - undefinedms
+      - 🇭🇰_香港_154 - undefinedms
+      - 🇭🇰_香港_157 - undefinedms
+      - 🇺🇸_美国_158 - undefinedms
+      - 🇭🇰_香港_213 - undefinedms
+      - 🇭🇰_香港_215 - undefinedms
+      - 🇭🇰_香港_216 - undefinedms
+      - 🇭🇰_香港_221 - undefinedms
+      - 🇭🇰_香港_222 - undefinedms
+      - 🇭🇰_香港_225 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
