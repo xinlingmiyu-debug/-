@@ -44,34 +44,112 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇨🇳_中国_88 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇨🇳_中国_89 - undefinedms
+  - name: 🇨🇳_中国_355 - undefinedms
     type: vmess
     server: v33.hdacd.com
     port: 30833
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
-    tls: true
+    tls: false
     network: tcp
-  - name: 🇨🇳_中国_90 - undefinedms
+  - name: 🇨🇳_中国_357 - undefinedms
     type: vmess
     server: v6.hdacd.com
     port: 30806
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
-    tls: true
+    tls: false
     network: tcp
-  - name: 🇫🇷_法国_105 - undefinedms
+  - name: 🇸🇬_新加坡_358 - undefinedms
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🏳️_未知_391 - undefinedms
+    type: vmess
+    server: cdns.doon.eu.org
+    port: 443
+    uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /vmess-argo?ed=2560
+      headers:
+        Host: detector-portland-vegetable-knitting.trycloudflare.com
+  - name: 🇫🇷_法国_472 - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16622
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+  - name: 🇫🇷_法国_473 - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16632
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+  - name: 🇫🇷_法国_474 - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16617
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+  - name: 🇫🇷_法国_475 - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16616
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+  - name: 🇫🇷_法国_476 - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16626
+    uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+  - name: 🇫🇷_法国_484 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:1a9::2
     port: 23388
@@ -84,71 +162,59 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: 2001:bc8:32d7:1a9::2
-  - name: 🇫🇷_法国_149 - undefinedms
+  - name: 🇭🇰_HK_中国香港 - undefinedms
     type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    server: 47.86.167.194
+    port: 800
+    uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🇳🇱_荷兰_150 - undefinedms
+    tls: false
+    network: http
+  - name: 🇭🇰_HK_中国香港 - undefinedms
     type: vmess
-    server: 185.246.152.159
+    server: drbkg16egf3fzlm3.v.3dns.vip
     port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
+    uuid: f23bb427c1f94373876c2f43e9f790f3
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
+      path: /ws-vmess
       headers:
-        Host: apjhdggyx.com
-  - name: 🏳️_未知_153 - undefinedms
+        Host: drbkg16egf3fzlm3.v.3dns.vip
+  - name: 🇭🇰_HK_中国香港 - undefinedms
     type: vmess
-    server: www.nextkyc.com
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /lMnsZUN4/
-      headers:
-        Host: v2ray1.dozapp.xyz
-  - name: 🇳🇱_荷兰_161 - undefinedms
-    type: vmess
-    server: 185.246.152.159
+    server: m01c7b2z26dtqgee.v.3dns.vip
     port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
+    uuid: f23bb427c1f94373876c2f43e9f790f3
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
+      path: /ws-vmess
       headers:
-        Host: apjhdggyx.com
-  - name: 🏳️_未知_165 - undefinedms
+        Host: m01c7b2z26dtqgee.v.3dns.vip
+  - name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
     type: vmess
-    server: US122208.ssgreen.org
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
     port: 443
-    uuid: 9036fcb1-7320-4e2e-b808-4c49e6a9bdb8
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
     alterId: 0
     cipher: auto
     tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US122208.ssgreen.org
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -617,59 +683,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 47.86.167.194
-    port: 800
-    uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: drbkg16egf3fzlm3.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: drbkg16egf3fzlm3.v.3dns.vip
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: m01c7b2z26dtqgee.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: m01c7b2z26dtqgee.v.3dns.vip
-  - name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -677,15 +690,21 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇳_中国_88 - undefinedms
-      - 🇨🇳_中国_89 - undefinedms
-      - 🇨🇳_中国_90 - undefinedms
-      - 🇫🇷_法国_105 - undefinedms
-      - 🇫🇷_法国_149 - undefinedms
-      - 🇳🇱_荷兰_150 - undefinedms
-      - 🏳️_未知_153 - undefinedms
-      - 🇳🇱_荷兰_161 - undefinedms
-      - 🏳️_未知_165 - undefinedms
+      - 🇨🇳_中国_355 - undefinedms
+      - 🇨🇳_中国_357 - undefinedms
+      - 🇸🇬_新加坡_358 - undefinedms
+      - 🏳️_未知_391 - undefinedms
+      - 🇫🇷_法国_472 - undefinedms
+      - 🇫🇷_法国_473 - undefinedms
+      - 🇫🇷_法国_474 - undefinedms
+      - 🇫🇷_法国_475 - undefinedms
+      - 🇫🇷_法国_476 - undefinedms
+      - 🇫🇷_法国_484 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -722,11 +741,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -736,15 +750,21 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇨🇳_中国_88 - undefinedms
-      - 🇨🇳_中国_89 - undefinedms
-      - 🇨🇳_中国_90 - undefinedms
-      - 🇫🇷_法国_105 - undefinedms
-      - 🇫🇷_法国_149 - undefinedms
-      - 🇳🇱_荷兰_150 - undefinedms
-      - 🏳️_未知_153 - undefinedms
-      - 🇳🇱_荷兰_161 - undefinedms
-      - 🏳️_未知_165 - undefinedms
+      - 🇨🇳_中国_355 - undefinedms
+      - 🇨🇳_中国_357 - undefinedms
+      - 🇸🇬_新加坡_358 - undefinedms
+      - 🏳️_未知_391 - undefinedms
+      - 🇫🇷_法国_472 - undefinedms
+      - 🇫🇷_法国_473 - undefinedms
+      - 🇫🇷_法国_474 - undefinedms
+      - 🇫🇷_法国_475 - undefinedms
+      - 🇫🇷_法国_476 - undefinedms
+      - 🇫🇷_法国_484 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -781,10 +801,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇨🇳_CN_中国->🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
 rules:
   - MATCH,Proxy
