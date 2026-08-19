@@ -96,11 +96,11 @@ proxies:
       path: /
       headers:
         Host: rush-6it6b.teeopp.quest
-  - name: 🇭🇰HK_3|2.6MB/s - undefinedms
+  - name: 🇭🇰HK_3|3.8MB/s - undefinedms
     type: vmess
     server: planb.mojcn.com.linuxlh.xin
     port: 16632
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    uuid: 0c657913-e593-4893-9555-f88478c33a4b
     alterId: 0
     cipher: auto
     tls: false
@@ -108,16 +108,7 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  - name: 🇺🇸US_2|4.3MB/s - undefinedms
-    type: vmess
-    server: 38.246.226.240
-    port: 52080
-    uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -651,8 +642,7 @@ proxy-groups:
       - 🇫🇷_法国_75 - undefinedms
       - 🇫🇷_法国_76 - undefinedms
       - 🏳️_未知_338 - undefinedms
-      - 🇭🇰HK_3|2.6MB/s - undefinedms
-      - 🇺🇸US_2|4.3MB/s - undefinedms
+      - 🇭🇰HK_3|3.8MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -708,8 +698,7 @@ proxy-groups:
       - 🇫🇷_法国_75 - undefinedms
       - 🇫🇷_法国_76 - undefinedms
       - 🏳️_未知_338 - undefinedms
-      - 🇭🇰HK_3|2.6MB/s - undefinedms
-      - 🇺🇸US_2|4.3MB/s - undefinedms
+      - 🇭🇰HK_3|3.8MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
