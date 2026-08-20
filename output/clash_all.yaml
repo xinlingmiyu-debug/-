@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,6 +31,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_美国_23 - undefinedms
     type: vmess
     server: 64.83.12.153
@@ -92,32 +92,6 @@ proxies:
       path: /
       headers:
         Host: singapore01.zgjok.com
-  - name: 🇭🇰HK_1|2.8MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 0c657913-e593-4893-9555-f88478c33a4b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-  - name: 🇫🇷FR_1|1.7MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16644
-    uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -644,15 +618,13 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇺🇸_美国_23 - undefinedms
       - 🇫🇷_法国_47 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇸🇬_新加坡_271 - undefinedms
-      - 🇭🇰HK_1|2.8MB/s - undefinedms
-      - 🇫🇷FR_1|1.7MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -701,15 +673,13 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇺🇸_美国_23 - undefinedms
       - 🇫🇷_法国_47 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇸🇬_新加坡_271 - undefinedms
-      - 🇭🇰HK_1|2.8MB/s - undefinedms
-      - 🇫🇷FR_1|1.7MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
