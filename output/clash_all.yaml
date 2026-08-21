@@ -31,6 +31,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: rush-w1niu.teeopp.online
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /video/v4sx3q/zxzrurkc.m3u8
+      headers:
+        Host: rush-w1niu.teeopp.online
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -44,190 +57,193 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇮🇷_伊朗_97 - undefinedms
+  - name: 🇸🇬SG_1|1.7MB/s - undefinedms
     type: vmess
-    server: trf-nld.ip-static.com
-    port: 5001
-    uuid: 03bda96d-604a-4839-a087-fea6749f2918
-    alterId: 0
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
-  - name: 🏳️_未知_121 - undefinedms
+  - name: 🇩🇪DE_2|3.0MB/s - undefinedms
     type: vmess
-    server: US032022.ssgreen.org
-    port: 443
-    uuid: bd42aa53-1f41-45e0-a4ab-023d913525f4
+    server: jpaws.ccwink.photos
+    port: 53225
+    uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
     alterId: 0
     cipher: auto
     tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032022.ssgreen.org
-  - name: 🏳️_未知_122 - undefinedms
-    type: vmess
-    server: US032018.ssgreen.org
-    port: 443
-    uuid: d23ffbd4-7b6f-4f41-83a8-52efe3bf78c9
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032018.ssgreen.org
-  - name: 🏳️_未知_123 - undefinedms
-    type: vmess
-    server: US032012.westmgreen.com
-    port: 443
-    uuid: 110dde27-95d6-4551-a36f-589d02615f6f
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032012.westmgreen.com
-  - name: 🏳️_未知_126 - undefinedms
-    type: vmess
-    server: US032010.westmgreen.com
-    port: 443
-    uuid: 30c769bb-7558-44cc-ba41-f671a9b8d357
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032010.westmgreen.com
-  - name: 🇫🇷_法国_141 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🇫🇷_法国_166 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::2
-    port: 23388
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::2
-  - name: 🏳️_未知_176 - undefinedms
-    type: vmess
-    server: US032010.westmgreen.com
-    port: 443
-    uuid: 30c769bb-7558-44cc-ba41-f671a9b8d357
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032010.westmgreen.com
-  - name: 🏳️_未知_177 - undefinedms
-    type: vmess
-    server: US032018.ssgreen.org
-    port: 443
-    uuid: d23ffbd4-7b6f-4f41-83a8-52efe3bf78c9
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032018.ssgreen.org
-  - name: 🏳️_未知_178 - undefinedms
-    type: vmess
-    server: US032022.ssgreen.org
-    port: 443
-    uuid: bd42aa53-1f41-45e0-a4ab-023d913525f4
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032022.ssgreen.org
-  - name: 🇯🇵_日本_195 - undefinedms
-    type: vmess
-    server: cc28.goingside.site
-    port: 8998
-    uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc28.goingside.site
-  - name: 🇺🇸_美国_196 - undefinedms
-    type: vmess
-    server: 185.227.252.204
-    port: 8080
-    uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 185.227.252.204
+    network: tcp
   - name: 🇭🇰HK_1|3.1MB/s - undefinedms
     type: vmess
     server: node.socks5.kdns.fr
     port: 443
-    uuid: 3d6fb203-616e-4bb2-851b-e37a0903a4bc
+    uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /3d6fb203-616e-4bb2-851b-e37a0903a4bc-vm
+      path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
       headers:
-        Host: suspected-confirmed-origin-pocket.trycloudflare.com
-  - name: 🇺🇸US_2|1.2MB/s - undefinedms
+        Host: softball-chief-observations-myspace.trycloudflare.com
+  - name: 🇹🇼_台湾_107 - undefinedms
+    type: vmess
+    server: 2.27.174.110
+    port: 794
+    uuid: fd2c3c77-1984-4f7c-befe-efba034e1f3c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇯🇵_日本_284 - undefinedms
+    type: vmess
+    server: jpaws.ccwink.photos
+    port: 53225
+    uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇭🇰_香港_286 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇳🇱_荷兰_304 - undefinedms
+    type: vmess
+    server: 185.246.152.159
+    port: 443
+    uuid: 5f72f180-b21b-4b7a-8484-240759012604
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /5f72f180-b21b-4b7a-8484-240759096785
+      headers:
+        Host: apjhdggyx.com
+  - name: 🇳🇱_荷兰_305 - undefinedms
+    type: vmess
+    server: 185.246.152.159
+    port: 443
+    uuid: 5f72f180-b21b-4b7a-8484-240759012604
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /5f72f180-b21b-4b7a-8484-240759096785
+      headers:
+        Host: apjhdggyx.com
+  - name: 🇫🇷_法国_436 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇫🇷_法国_437 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🇫🇷_法国_592 - undefinedms
+    type: vmess
+    server: 2001:bc8:32d7:1a9::2
+    port: 23388
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2001:bc8:32d7:1a9::2
+  - name: 🏳️_未知_663 - undefinedms
     type: vmess
     server: node.socks5.kdns.fr
     port: 443
-    uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+    uuid: 9b2c688e-cd45-49d3-bfd1-a2b6392df504
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+      path: /9b2c688e-cd45-49d3-bfd1-a2b6392df504-vm
       headers:
-        Host: booth-moreover-framework-thereafter.trycloudflare.com
-  - name: 🇺🇸US_5|4.2MB/s - undefinedms
+        Host: notre-lanes-register-durable.trycloudflare.com
+  - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
-    server: 38.246.226.240
-    port: 52080
-    uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 154.37.223.19
+    port: 56972
+    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: http
+  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
@@ -556,60 +572,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -759,22 +721,26 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇮🇷_伊朗_97 - undefinedms
-      - 🏳️_未知_121 - undefinedms
-      - 🏳️_未知_122 - undefinedms
-      - 🏳️_未知_123 - undefinedms
-      - 🏳️_未知_126 - undefinedms
-      - 🇫🇷_法国_141 - undefinedms
-      - 🇫🇷_法国_166 - undefinedms
-      - 🏳️_未知_176 - undefinedms
-      - 🏳️_未知_177 - undefinedms
-      - 🏳️_未知_178 - undefinedms
-      - 🇯🇵_日本_195 - undefinedms
-      - 🇺🇸_美国_196 - undefinedms
+      - 🇸🇬SG_1|1.7MB/s - undefinedms
+      - 🇩🇪DE_2|3.0MB/s - undefinedms
       - 🇭🇰HK_1|3.1MB/s - undefinedms
-      - 🇺🇸US_2|1.2MB/s - undefinedms
-      - 🇺🇸US_5|4.2MB/s - undefinedms
+      - 🇹🇼_台湾_107 - undefinedms
+      - 🇯🇵_日本_284 - undefinedms
+      - 🇭🇰_香港_286 - undefinedms
+      - 🇳🇱_荷兰_304 - undefinedms
+      - 🇳🇱_荷兰_305 - undefinedms
+      - 🇫🇷_法国_436 - undefinedms
+      - 🇫🇷_法国_437 - undefinedms
+      - 🇫🇷_法国_592 - undefinedms
+      - 🏳️_未知_663 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -800,12 +766,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -825,22 +785,26 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇮🇷_伊朗_97 - undefinedms
-      - 🏳️_未知_121 - undefinedms
-      - 🏳️_未知_122 - undefinedms
-      - 🏳️_未知_123 - undefinedms
-      - 🏳️_未知_126 - undefinedms
-      - 🇫🇷_法国_141 - undefinedms
-      - 🇫🇷_法国_166 - undefinedms
-      - 🏳️_未知_176 - undefinedms
-      - 🏳️_未知_177 - undefinedms
-      - 🏳️_未知_178 - undefinedms
-      - 🇯🇵_日本_195 - undefinedms
-      - 🇺🇸_美国_196 - undefinedms
+      - 🇸🇬SG_1|1.7MB/s - undefinedms
+      - 🇩🇪DE_2|3.0MB/s - undefinedms
       - 🇭🇰HK_1|3.1MB/s - undefinedms
-      - 🇺🇸US_2|1.2MB/s - undefinedms
-      - 🇺🇸US_5|4.2MB/s - undefinedms
+      - 🇹🇼_台湾_107 - undefinedms
+      - 🇯🇵_日本_284 - undefinedms
+      - 🇭🇰_香港_286 - undefinedms
+      - 🇳🇱_荷兰_304 - undefinedms
+      - 🇳🇱_荷兰_305 - undefinedms
+      - 🇫🇷_法国_436 - undefinedms
+      - 🇫🇷_法国_437 - undefinedms
+      - 🇫🇷_法国_592 - undefinedms
+      - 🏳️_未知_663 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -866,12 +830,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
