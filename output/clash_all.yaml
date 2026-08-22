@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: rush-w1niu.teeopp.online
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /video/v4sx3q/zxzrurkc.m3u8
-      headers:
-        Host: rush-w1niu.teeopp.online
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -57,37 +44,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇸🇬SG_1|1.7MB/s - undefinedms
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇩🇪DE_2|3.0MB/s - undefinedms
-    type: vmess
-    server: jpaws.ccwink.photos
-    port: 53225
-    uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇭🇰HK_1|3.1MB/s - undefinedms
-    type: vmess
-    server: node.socks5.kdns.fr
-    port: 443
-    uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
-      headers:
-        Host: softball-chief-observations-myspace.trycloudflare.com
   - name: 🇹🇼_台湾_107 - undefinedms
     type: vmess
     server: 2.27.174.110
@@ -193,6 +149,15 @@ proxies:
       path: /9b2c688e-cd45-49d3-bfd1-a2b6392df504-vm
       headers:
         Host: notre-lanes-register-durable.trycloudflare.com
+  - name: 🇫🇮FI_1|1.2MB/s - undefinedms
+    type: vmess
+    server: 65.109.211.136
+    port: 14849
+    uuid: 0de36006-3fab-40a6-ac2b-b9663b815a17
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 82.198.246.214
@@ -721,11 +686,7 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇸🇬SG_1|1.7MB/s - undefinedms
-      - 🇩🇪DE_2|3.0MB/s - undefinedms
-      - 🇭🇰HK_1|3.1MB/s - undefinedms
       - 🇹🇼_台湾_107 - undefinedms
       - 🇯🇵_日本_284 - undefinedms
       - 🇭🇰_香港_286 - undefinedms
@@ -735,6 +696,7 @@ proxy-groups:
       - 🇫🇷_法国_437 - undefinedms
       - 🇫🇷_法国_592 - undefinedms
       - 🏳️_未知_663 - undefinedms
+      - 🇫🇮FI_1|1.2MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
@@ -785,11 +747,7 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇸🇬SG_1|1.7MB/s - undefinedms
-      - 🇩🇪DE_2|3.0MB/s - undefinedms
-      - 🇭🇰HK_1|3.1MB/s - undefinedms
       - 🇹🇼_台湾_107 - undefinedms
       - 🇯🇵_日本_284 - undefinedms
       - 🇭🇰_香港_286 - undefinedms
@@ -799,6 +757,7 @@ proxy-groups:
       - 🇫🇷_法国_437 - undefinedms
       - 🇫🇷_法国_592 - undefinedms
       - 🏳️_未知_663 - undefinedms
+      - 🇫🇮FI_1|1.2MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
