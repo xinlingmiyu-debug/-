@@ -145,24 +145,37 @@ proxies:
       path: /ayve3q7z
       headers:
         Host: chatbuzzteam.ir
-  - name: ❓Other_1|2.8MB/s - undefinedms
+  - name: 🇺🇸US_2|1.2MB/s - undefinedms
     type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: 107.173.254.27
+    port: 15311
+    uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
+    alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 🇸🇬SG_2|4.1MB/s - undefinedms
+    network: none
+  - name: 🇺🇸US_4|1.3MB/s - undefinedms
     type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    server: www.361371.xyz
+    port: 443
+    uuid: da77c564-3815-468c-8867-0aea0b397027
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws-6rm27y
+      headers:
+        Host: www.361371.xyz
+  - name: 🇹🇭TH_1|2.2MB/s - undefinedms
+    type: vmess
+    server: 119.46.51.45
+    port: 37515
+    uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+    alterId: 0
     cipher: auto
     tls: false
-    network: tcp
+    network: none
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
     type: vmess
     server: v29.hdacd.com
@@ -799,8 +812,9 @@ proxy-groups:
       - 🇫🇷_法国_47 - undefinedms
       - 🇺🇸_美国_321 - undefinedms
       - 🇺🇸_美国_322 - undefinedms
-      - ❓Other_1|2.8MB/s - undefinedms
-      - 🇸🇬SG_2|4.1MB/s - undefinedms
+      - 🇺🇸US_2|1.2MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇹🇭TH_1|2.2MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
@@ -871,8 +885,9 @@ proxy-groups:
       - 🇫🇷_法国_47 - undefinedms
       - 🇺🇸_美国_321 - undefinedms
       - 🇺🇸_美国_322 - undefinedms
-      - ❓Other_1|2.8MB/s - undefinedms
-      - 🇸🇬SG_2|4.1MB/s - undefinedms
+      - 🇺🇸US_2|1.2MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇹🇭TH_1|2.2MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
