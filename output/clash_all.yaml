@@ -5,19 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 拉脱维亚 V2CROSS.COM - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: t.cnmjcn.cyou
-    port: 16632
-    uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /github.com/Alvin9999
       headers:
-        Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -123,24 +123,11 @@ proxies:
       path: /
       headers:
         Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 🇯🇵JP_2|3.9MB/s - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_1|1.1MB/s - undefinedms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16632
-    uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+    server: p4.cnb.linuxlh.xin
+    port: 16617
+    uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
     alterId: 0
     cipher: auto
     tls: false
@@ -148,7 +135,7 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+        Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
     type: vmess
     server: v29.hdacd.com
@@ -719,7 +706,7 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 拉脱维亚 V2CROSS.COM - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇸🇬_新加坡_17 - undefinedms
@@ -729,8 +716,7 @@ proxy-groups:
       - 🇫🇷_法国_67 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇫🇷_法国_294 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|1.1MB/s - undefinedms
+      - 🇯🇵JP_2|3.9MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
@@ -783,7 +769,7 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 拉脱维亚 V2CROSS.COM - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇸🇬_新加坡_17 - undefinedms
@@ -793,8 +779,7 @@ proxy-groups:
       - 🇫🇷_法国_67 - undefinedms
       - 🇫🇷_法国_68 - undefinedms
       - 🇫🇷_法国_294 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|1.1MB/s - undefinedms
+      - 🇯🇵JP_2|3.9MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
