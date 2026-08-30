@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,19 +44,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 🇨🇳_中国_17 - undefinedms
     type: vmess
     server: v29.hdacd.com
@@ -176,19 +176,15 @@ proxies:
       path: /
       headers:
         Host: rush-t2tvv.ceeopp.site
-  - name: 🇭🇰HK_1|4.6MB/s - undefinedms
+  - name: 🇺🇸US_4|1.0MB/s - undefinedms
     type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: d187a23a-76a9-4d55-84e3-ea3b8b222cbf
-    alterId: 0
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /d187a23a-76a9-4d55-84e3-ea3b8b222cbf-vm
-      headers:
-        Host: dimensional-regularly-buildings-keys.trycloudflare.com
+    tls: false
+    network: tcp
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
     type: vmess
     server: v29.hdacd.com
@@ -759,9 +755,9 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇨🇳_中国_17 - undefinedms
       - 🇺🇸_美国_18 - undefinedms
       - 🇨🇳_中国_19 - undefinedms
@@ -774,7 +770,7 @@ proxy-groups:
       - 🇫🇷_法国_55 - undefinedms
       - 🇳🇱_荷兰_270 - undefinedms
       - 🏳️_未知_271 - undefinedms
-      - 🇭🇰HK_1|4.6MB/s - undefinedms
+      - 🇺🇸US_4|1.0MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
@@ -827,9 +823,9 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 🇨🇳_中国_17 - undefinedms
       - 🇺🇸_美国_18 - undefinedms
       - 🇨🇳_中国_19 - undefinedms
@@ -842,7 +838,7 @@ proxy-groups:
       - 🇫🇷_法国_55 - undefinedms
       - 🇳🇱_荷兰_270 - undefinedms
       - 🏳️_未知_271 - undefinedms
-      - 🇭🇰HK_1|4.6MB/s - undefinedms
+      - 🇺🇸US_4|1.0MB/s - undefinedms
       - 🇨🇳_CN_中国->🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
