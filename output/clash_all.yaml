@@ -44,16 +44,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇦🇪_阿拉伯联合酋长国_10 - undefinedms
-    type: vmess
-    server: p05.rghvf.sbs
-    port: 1233
-    uuid: 68adffea-4146-4f92-b2f9-955cd634c274
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: tcp
-  - name: 🇺🇸_美国_88 - undefinedms
+  - name: 🇺🇸_美国_15 - undefinedms
     type: vmess
     server: d3cdy6viklzpq1.cloudfront.net
     port: 443
@@ -635,8 +626,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇦🇪_阿拉伯联合酋长国_10 - undefinedms
-      - 🇺🇸_美国_88 - undefinedms
+      - 🇺🇸_美国_15 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -692,8 +682,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇦🇪_阿拉伯联合酋长国_10 - undefinedms
-      - 🇺🇸_美国_88 - undefinedms
+      - 🇺🇸_美国_15 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
