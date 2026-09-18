@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 🇺🇸_美国_15 - undefinedms
     type: vmess
     server: d3cdy6viklzpq1.cloudfront.net
@@ -57,6 +44,32 @@ proxies:
       path: /vmess
       headers:
         Host: d3cdy6viklzpq1.cloudfront.net
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇹🇼TW_2|4.8MB/s - undefinedms
+    type: vmess
+    server: 7dba81fc3a0b.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 7dba81fc3a0b.oylfmxz.cn
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 165.140.217.2
@@ -625,8 +638,9 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_美国_15 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇹🇼TW_2|4.8MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -681,8 +695,9 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_美国_15 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇹🇼TW_2|4.8MB/s - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
