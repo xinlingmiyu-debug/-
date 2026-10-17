@@ -31,19 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: yg1.ygkkk.dpdns.org
-    port: 443
-    uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-      headers:
-        Host: jmp1.907737.xyz
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -57,7 +44,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸US_1|3.5MB/s - undefinedms
+  - name: 🇺🇸US_1|4.1MB/s - undefinedms
     type: vmess
     server: v29.hdacd.com
     port: 30829
@@ -66,339 +53,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_美国_68 - undefinedms
+  - name: 🏳️_未知_66 - undefinedms
     type: vmess
-    server: 165.140.217.2
-    port: 443
-    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇰🇷_韩国_86 - undefinedms
-    type: vmess
-    server: 43.108.103.167
-    port: 123
-    uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇳🇱_荷兰_167 - undefinedms
-    type: vmess
-    server: 64.188.97.153
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🏳️_未知_171 - undefinedms
-    type: vmess
-    server: 172.67.167.78
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /lMnsZUN4/
-      headers:
-        Host: v2ray1.dozapp.xyz
-  - name: 🇳🇱_荷兰_172 - undefinedms
-    type: vmess
-    server: 78.17.71.236
-    port: 33736
-    uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+    server: '[2606:4700:9a98::890:1d33]'
+    port: 80
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /vmess-ws
+      path: /ws?ed=2048
       headers:
-        Host: Telegram-Leviko_v2ray
-  - name: 🇨🇿_捷克_178 - undefinedms
-    type: vmess
-    server: 95.85.233.138
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_179 - undefinedms
-    type: vmess
-    server: 13.140.28.46
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🏳️_未知_191 - undefinedms
-    type: vmess
-    server: 172.64.80.1
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /lMnsZUN4/
-      headers:
-        Host: v2ray1.dozapp.xyz
-  - name: 🇻🇬_英属维尔京群岛_205 - undefinedms
-    type: vmess
-    server: www.nextkyc.com
-    port: 8443
-    uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /lMnsZUN4/
-      headers:
-        Host: v2ray1.dozapp.xyz
-  - name: 🇩🇪_德国_206 - undefinedms
-    type: vmess
-    server: 85.215.41.19
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇷🇺_俄罗斯_207 - undefinedms
-    type: vmess
-    server: 5.188.26.85
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_208 - undefinedms
-    type: vmess
-    server: 111.88.74.167
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇺🇸_美国_209 - undefinedms
-    type: vmess
-    server: 2.27.16.177
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇷🇺_俄罗斯_210 - undefinedms
-    type: vmess
-    server: 80.240.252.241
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇫🇮_芬兰_211 - undefinedms
-    type: vmess
-    server: 95.81.126.119
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_212 - undefinedms
-    type: vmess
-    server: 89.127.218.61
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇩🇪_德国_213 - undefinedms
-    type: vmess
-    server: 31.77.223.21
-    port: 443
-    uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-2-62.mirra.now
-  - name: 🇮🇳_印度_221 - undefinedms
-    type: vmess
-    server: 20.235.220.189
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: 🇫🇷_法国_288 - undefinedms
-    type: vmess
-    server: 2001:bc8:32d7:1a9::3
-    port: 18901
-    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-      headers:
-        Host: 2001:bc8:32d7:1a9::3
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 165.140.217.2
-    port: 443
-    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-    type: vmess
-    server: v33.hdacd.com
-    port: 30833
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: www.shopify.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 🇯🇵_JP_日本 - undefinedms
-    type: vmess
-    server: 38.47.121.14
-    port: 49432
-    uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
+        Host: vmess.lbw666.dpdns.org
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -867,44 +534,109 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 165.140.217.2
+    port: 443
+    uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇨🇳_CN_中国 - undefinedms
+    type: vmess
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: www.shopify.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: 🇯🇵_JP_日本 - undefinedms
+    type: vmess
+    server: 38.47.121.14
+    port: 49432
+    uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: http
+  - name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+    type: vmess
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|3.5MB/s - undefinedms
-      - 🇺🇸_美国_68 - undefinedms
-      - 🇰🇷_韩国_86 - undefinedms
-      - 🇳🇱_荷兰_167 - undefinedms
-      - 🏳️_未知_171 - undefinedms
-      - 🇳🇱_荷兰_172 - undefinedms
-      - 🇨🇿_捷克_178 - undefinedms
-      - 🇩🇪_德国_179 - undefinedms
-      - 🏳️_未知_191 - undefinedms
-      - 🇻🇬_英属维尔京群岛_205 - undefinedms
-      - 🇩🇪_德国_206 - undefinedms
-      - 🇷🇺_俄罗斯_207 - undefinedms
-      - 🇩🇪_德国_208 - undefinedms
-      - 🇺🇸_美国_209 - undefinedms
-      - 🇷🇺_俄罗斯_210 - undefinedms
-      - 🇫🇮_芬兰_211 - undefinedms
-      - 🇩🇪_德国_212 - undefinedms
-      - 🇩🇪_德国_213 - undefinedms
-      - 🇮🇳_印度_221 - undefinedms
-      - 🇫🇷_法国_288 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇺🇸US_1|4.1MB/s - undefinedms
+      - 🏳️_未知_66 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -941,6 +673,16 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -949,38 +691,9 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|3.5MB/s - undefinedms
-      - 🇺🇸_美国_68 - undefinedms
-      - 🇰🇷_韩国_86 - undefinedms
-      - 🇳🇱_荷兰_167 - undefinedms
-      - 🏳️_未知_171 - undefinedms
-      - 🇳🇱_荷兰_172 - undefinedms
-      - 🇨🇿_捷克_178 - undefinedms
-      - 🇩🇪_德国_179 - undefinedms
-      - 🏳️_未知_191 - undefinedms
-      - 🇻🇬_英属维尔京群岛_205 - undefinedms
-      - 🇩🇪_德国_206 - undefinedms
-      - 🇷🇺_俄罗斯_207 - undefinedms
-      - 🇩🇪_德国_208 - undefinedms
-      - 🇺🇸_美国_209 - undefinedms
-      - 🇷🇺_俄罗斯_210 - undefinedms
-      - 🇫🇮_芬兰_211 - undefinedms
-      - 🇩🇪_德国_212 - undefinedms
-      - 🇩🇪_德国_213 - undefinedms
-      - 🇮🇳_印度_221 - undefinedms
-      - 🇫🇷_法国_288 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇯🇵_JP_日本 - undefinedms
-      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
+      - 🇺🇸US_1|4.1MB/s - undefinedms
+      - 🏳️_未知_66 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1017,5 +730,15 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇭🇰_HK_中国香港->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇩🇪_DE_德国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇯🇵_JP_日本 - undefinedms
+      - 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - undefinedms
 rules:
   - MATCH,Proxy
