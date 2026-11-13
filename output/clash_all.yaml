@@ -44,6 +44,19 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: 🇮🇩ID_1|4.9MB/s - undefinedms
+    type: vmess
+    server: 13.249.231.85
+    port: 443
+    uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: d7pu5mzr9c4b0.cloudfront.net
   - name: 🇫🇷_法国 (6) - undefinedms
     type: vmess
     server: 2001:bc8:32d7:1a9::2
@@ -709,58 +722,6 @@ proxies:
     cipher: auto
     tls: true
     network: tcp
-  - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
-    type: vmess
-    server: 172.66.0.1
-    port: 443
-    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: vmess.lbw666.dpdns.org
-  - name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-    type: vmess
-    server: 172.67.190.164
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-    type: vmess
-    server: 172.64.145.93
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: 🇨🇳_CN_中国_IPV4 (2) - undefinedms
-    type: vmess
-    server: 39.108.113.127
-    port: 10086
-    uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 39.108.113.127
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1229,6 +1190,58 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
+    type: vmess
+    server: 172.66.0.1
+    port: 443
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /ws
+      headers:
+        Host: vmess.lbw666.dpdns.org
+  - name: 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+    type: vmess
+    server: 172.67.190.164
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+    type: vmess
+    server: 172.64.145.93
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: 🇨🇳_CN_中国_IPV4 (2) - undefinedms
+    type: vmess
+    server: 39.108.113.127
+    port: 10086
+    uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 39.108.113.127
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -1236,6 +1249,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇮🇩ID_1|4.9MB/s - undefinedms
       - 🇫🇷_法国 (6) - undefinedms
       - 🇺🇸_美国 (28) - undefinedms
       - 🇺🇸_美国 (10) - undefinedms
@@ -1309,10 +1323,6 @@ proxy-groups:
       - 🇩🇪_德国 (22) - undefinedms
       - 🇺🇸_美国 (17) - undefinedms
       - 🇩🇪_德国 (25) - undefinedms
-      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
-      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1349,6 +1359,10 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
+      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -1358,6 +1372,7 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇮🇩ID_1|4.9MB/s - undefinedms
       - 🇫🇷_法国 (6) - undefinedms
       - 🇺🇸_美国 (28) - undefinedms
       - 🇺🇸_美国 (10) - undefinedms
@@ -1431,10 +1446,6 @@ proxy-groups:
       - 🇩🇪_德国 (22) - undefinedms
       - 🇺🇸_美国 (17) - undefinedms
       - 🇩🇪_德国 (25) - undefinedms
-      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
-      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
-      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
-      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1471,5 +1482,9 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
+      - 🇺🇸_US_美国_IPV4 (2) - undefinedms
+      - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
+      - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
+      - 🇨🇳_CN_中国_IPV4 (2) - undefinedms
 rules:
   - MATCH,Proxy
